@@ -1,0 +1,142 @@
+2022.08.23 20:25:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at g:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\.metals\lsp.trace.json or C:\Users\DELL™\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.23 20:25:59 INFO  logging to file G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\.metals\metals.log
+2022.08.23 20:25:59 INFO  Started: Metals version 0.11.8+38-1832a3cf-SNAPSHOT in workspace 'G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5' for client Visual Studio Code 1.70.2.
+2022.08.23 20:26:06 INFO  time: initialize in 6.85s
+2022.08.23 20:26:07 WARN  Build server is not auto-connectable.
+2022.08.23 20:26:07 WARN  no build tool detected in workspace 'G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.08.23 20:26:07 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q1.scala
+2022.08.23 20:26:40 INFO  no build target found for G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q1.scala. Using presentation compiler with project's scala-library version: 3.1.3
+Aug 23, 2022 8:28:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.nio.file.Paths.get(Paths.java:147)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:115)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:141)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:623)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:620)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1154)
+	... 16 more
+
+2022.08.23 20:29:00 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q1.scala
+2022.08.23 20:29:52 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q1.scala
+Aug 23, 2022 8:29:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.08.23 20:31:25 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 20:31:41 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q1.scala
+2022.08.23 20:31:45 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q1.scala
+2022.08.23 20:37:28 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 21:35:47 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 21:35:59 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 21:37:08 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q3.scala
+2022.08.23 21:37:31 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 21:37:39 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 21:44:53 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q3.scala
+2022.08.23 21:45:08 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q3.scala
+2022.08.23 21:46:20 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 21:46:21 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 21:49:23 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q4.scala
+2022.08.23 21:56:41 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q4.scala
+2022.08.23 22:00:13 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q4.scala
+2022.08.23 22:00:18 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q4.scala
+2022.08.23 22:00:22 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q4.scala
+2022.08.23 22:00:27 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q4.scala
+2022.08.23 22:00:51 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q4.scala
+2022.08.23 22:01:26 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q4.scala
+2022.08.23 22:01:33 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q5.scala
+2022.08.23 22:05:39 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q5.scala
+2022.08.23 22:06:53 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q5.scala
+2022.08.23 22:07:25 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q5.scala
+2022.08.23 22:08:10 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q5.scala
+2022.08.23 22:09:30 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q5.scala
+2022.08.23 22:10:25 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q3.scala
+2022.08.23 22:17:28 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q1.scala
+Aug 23, 2022 10:18:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:121)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:64)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Workspace.description(CompletionValue.scala:88)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:179)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:94)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:95)
+
+2022.08.23 22:19:13 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 22:20:20 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 22:20:48 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q2.scala
+2022.08.23 22:36:15 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q3.scala
+2022.08.23 22:36:39 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q3.scala
+2022.08.23 22:36:49 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q6.scala
+2022.08.23 22:36:58 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q4.scala
+2022.08.23 22:37:16 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q6.scala
+2022.08.23 22:37:38 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q6.scala
+2022.08.23 22:55:03 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q7.scala
+2022.08.23 22:56:12 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q6.scala
+2022.08.24 05:36:29 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at g:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\.metals\lsp.trace.json or C:\Users\DELL™\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.24 05:36:36 INFO  logging to file G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\.metals\metals.log
+2022.08.24 05:36:36 INFO  Started: Metals version 0.11.8+38-1832a3cf-SNAPSHOT in workspace 'G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5' for client Visual Studio Code 1.70.2.
+2022.08.24 05:36:49 INFO  time: initialize in 13s
+2022.08.24 05:36:52 WARN  Build server is not auto-connectable.
+2022.08.24 05:36:52 WARN  no build tool detected in workspace 'G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.08.24 05:36:52 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q6.scala
+2022.08.24 05:36:52 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q4.scala
+2022.08.24 05:36:52 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q5.scala
+2022.08.24 05:37:06 INFO  no build target found for G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q6.scala. Using presentation compiler with project's scala-library version: 3.1.3
+Aug 24, 2022 5:37:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Aug 24, 2022 5:37:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Aug 24, 2022 5:37:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Aug 24, 2022 5:37:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Aug 24, 2022 5:37:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Aug 24, 2022 5:37:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Aug 24, 2022 5:37:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Aug 24, 2022 5:37:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Aug 24, 2022 5:37:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Aug 24, 2022 5:37:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Aug 24, 2022 5:37:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Aug 24, 2022 5:37:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2022.08.24 05:37:36 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q3.scala
+2022.08.24 05:50:18 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q6.scala
+2022.08.24 05:50:55 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q6.scala
+2022.08.24 05:53:58 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q6.scala
+2022.08.24 05:55:29 WARN  no build target for: G:\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_5\Q6.scala
+2022.08.24 06:35:56 INFO  shutting down Metals
